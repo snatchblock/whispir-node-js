@@ -27,3 +27,16 @@ the `Accept` value as well as the `Content-Type` values are very important. You 
 for more info on the content type and versioning read [here] (http://developer.whispir.com/docs/read/API_Content_Types__Versioning)
 
  ###other API end points too follow the same structure. read more from the [io docs] (http://developer.whispir.com/io-docs).
+
+
+###Code
+
+- the code requests the contacts api (POST) to provide it with contacts present in your adress book
+- (or) you can use the dummy function to setup any two names and contact values for them
+- then sends SMS to both the contacts
+- email to one of them
+- and calls to both of them
+
+####npm-modules
+
+`request` and `Q` are used. so ensure you run the `npm install request -g` and `npm install Q` commands before doing the `node whispir` for the first time.
